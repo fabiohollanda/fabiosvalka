@@ -61,7 +61,7 @@ taiko-mono
 
 ## Monorepo workspace commands
 
-Sub-package commands can be executed from any directory in the monorepo, not only from the root of the sub-package. This is done by using the `--filter` (or `-F`) flag with `pnpm`.
+Package commands can be executed from any directory in the monorepo, not only from the root of the package. This is done by using the `--filter` (or `-F`) flag with `pnpm`.
 
 For example:
 
