@@ -51,11 +51,26 @@ taiko-mono
 │   ├── <a href="./packages/branding">branding</a>: Taiko branding materials
 │   ├── <a href="./packages/bridge-ui">bridge-ui</a>: Bridge frontend UI
 │   ├── <a href="./packages/protocol">protocol</a>: L1 and L2 protocol smart contracts
+│   ├── <a href="./packages/status-page">status-page</a>: Taiko network status page
 │   ├── <a href="./packages/relayer">relayer</a>: Bridge relayer
+│   ├── <a href="./packages/tokenomics">tokenomics</a>: Taiko tokenomics
 │   ├── <a href="./packages/website">website</a>: Main documentation website at taiko.xyz
 │   └── <a href="./packages/whitepaper">whitepaper</a>: Whitepaper source files with automated publishing
 ...
 </pre>
+
+## Monorepo workspace commands
+
+Sub-package commands can be executed from any directory in the monorepo, not only from the root of the sub-package. This is done by using the `--filter` (or `-F`) flag with `pnpm`.
+
+For example:
+
+```sh
+# Compile protocol smart contracts
+pnpm -F protocol compile
+# Start the bridge UI
+pnpm -F bridge-ui start
+```
 
 ## Contributors ✨
 
