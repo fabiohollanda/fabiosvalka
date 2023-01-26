@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.5.0](https://github.com/taikoxyz/taiko-mono/compare/taiko-mono-v0.4.0...taiko-mono-v0.5.0) (2023-01-26)
+
+
+### Features
+
+* **protocol:** add special logics for alpha-2 testnet ([#12987](https://github.com/taikoxyz/taiko-mono/issues/12987)) ([3b71285](https://github.com/taikoxyz/taiko-mono/commit/3b712857b5d5ede2a3683d949d1974c8cceeb69a))
+* **protocol:** deploy the generated Yul plonk verifier ([#13016](https://github.com/taikoxyz/taiko-mono/issues/13016)) ([eb5d564](https://github.com/taikoxyz/taiko-mono/commit/eb5d564ec469b1ec79619b4d563c3f9989d264c2))
+* **protocol:** implement `Bridge.isMessageFailed` ([#13004](https://github.com/taikoxyz/taiko-mono/issues/13004)) ([45153d9](https://github.com/taikoxyz/taiko-mono/commit/45153d92cbcd0e80438c925d5ce5c52df3abd696))
+* **protocol:** implement releaseEther & releaseERC20 ([#13008](https://github.com/taikoxyz/taiko-mono/issues/13008)) ([088933e](https://github.com/taikoxyz/taiko-mono/commit/088933e74f7163459e328d61d8331235ab87e388))
+* **protocol:** improve sync header storage on L2 ([#13041](https://github.com/taikoxyz/taiko-mono/issues/13041)) ([86c9fe4](https://github.com/taikoxyz/taiko-mono/commit/86c9fe44a3200490032610c017bfc88c3a57a8dd))
+
+
+### Bug Fixes
+
+* **bridge-ui:** fix local dependency not found error for jest-dom ([#12990](https://github.com/taikoxyz/taiko-mono/issues/12990)) ([39bfb09](https://github.com/taikoxyz/taiko-mono/commit/39bfb09ff331a5522362ef683c21e75a2f9cfec3))
+* **protocol:** fix `test:integration` waiting node timeout ([#13006](https://github.com/taikoxyz/taiko-mono/issues/13006)) ([07debb7](https://github.com/taikoxyz/taiko-mono/commit/07debb779c1a142cf6050c31a5a8c9b72f26d376))
+* **protocol:** fix two protocol bugs ([#13034](https://github.com/taikoxyz/taiko-mono/issues/13034)) ([1bfa69b](https://github.com/taikoxyz/taiko-mono/commit/1bfa69b4458f7edc4b72efe9c2d8cf9c7050853e))
+* **relayer:** apply jwt-go security patch ([#13021](https://github.com/taikoxyz/taiko-mono/issues/13021)) ([264968f](https://github.com/taikoxyz/taiko-mono/commit/264968f24024d69a064b27e276e27870fd4c75f6))
+* **repo:** update readme badges to new filenames ([#13020](https://github.com/taikoxyz/taiko-mono/issues/13020)) ([4fa13c9](https://github.com/taikoxyz/taiko-mono/commit/4fa13c9432901137f688c61a00ade234a844250b))
+* **status-page:** fix local dependency not found error for jest-dom ([#12991](https://github.com/taikoxyz/taiko-mono/issues/12991)) ([b7974bf](https://github.com/taikoxyz/taiko-mono/commit/b7974bf0c8a80aa200313ec27ab44857e22142ee))
+* **website:** fix issue with white logo text and light mode ([#13019](https://github.com/taikoxyz/taiko-mono/issues/13019)) ([8c166fa](https://github.com/taikoxyz/taiko-mono/commit/8c166fa1a1c6258cb91fd978cf4f4aa33ef2b147))
+
 ## [0.4.0](https://github.com/taikoxyz/taiko-mono/compare/taiko-mono-v0.3.0...taiko-mono-v0.4.0) (2023-01-19)
 
 
